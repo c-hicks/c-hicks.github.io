@@ -259,7 +259,8 @@ header {
 .testimonial {
   position: relative;
   width: 100%;
-  text-align: left; }
+  text-align: left;
+  font-size: 17px;}
   .testimonial h6 {
     text-align: right; }
 
@@ -498,3 +499,20 @@ header {
 
   .text2 {
     display: block; } }
+
+@media (max-width: 400px){
+  .logo {
+    background-image: url(../images/logo_small.png);
+    margin-top: 15px;
+    max-height: 250px;
+  }
+  .logo-text {
+    margin-top: 1px;
+  }
+  .testimonial {
+    max-width: 100%;
+  }
+  .testimonial li {
+    max-height: 100%;
+  }
+}
